@@ -19,6 +19,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+
     width: 100%;
     max-width: 800px;
 }
@@ -31,10 +32,34 @@ header {
     justify-content: center;
     flex-direction: column;
 }
+.regresar {
+    padding-top: 9px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.boton-atras {
+    text-decoration: none;
+    display: flex;
+}
+.left {
+    margin-top: 12px;
+    margin-left: 15px;
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    transition: 0.5s;
+    box-shadow: -2px 2px 0 rgb(255, 255, 255);
+}
+
+.left {
+    transform: rotate(45deg);
+}
+
 .submenu-titulo {
     display: flex;
-    padding-left: 20px;
     padding-top: 25px;
+    margin-left: 25px;
     align-items: center;
     width: 90%;
     font-size: 1.5rem;
@@ -52,13 +77,7 @@ header {
     font-weight: 900;
     color: goldenrod;
 }
-.regresar {
-    padding-top: 10px;
-    padding-left: 20px;
 
-    color: #fff;
-    font-size: 1.2rem;
-}
 .carta {
     display: flex;
     align-items: center;
@@ -67,10 +86,9 @@ header {
     width: 100%;
 }
 .producto {
-    height: 100%;
+    min-height: 80px;
     border-bottom: 2px solid rgb(202, 202, 202);
     padding: 5px 5px;
-
     width: 90%;
     background: #fff;
 }
