@@ -73,7 +73,7 @@ header {
     border-bottom: goldenrod 2px solid;
     align-items: center;
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 900;
     color: goldenrod;
 }
@@ -87,7 +87,7 @@ header {
 }
 .producto {
     min-height: 80px;
-    border-bottom: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(231, 231, 231);
     padding: 5px 5px;
     width: 90%;
     background: #fff;
@@ -106,7 +106,18 @@ header {
     font-weight: 800;
     font-size: 1.4rem;
 }
+
+.pinta {
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px;
+    width: 90%;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
 .descripcion {
+    color: rgb(31, 31, 31);
     padding-top: 10px;
     font-size: 1.3rem;
 }
