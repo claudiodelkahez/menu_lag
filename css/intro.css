@@ -11,13 +11,13 @@ html {
     justify-content: center;
 }
 
-.container {
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+align-items: center;
     height: 100%;
-    width: 95%;
+    width: 100%;
 
     background: black;
 }
@@ -41,7 +41,10 @@ a {
     font-size: 2rem;
     color: #fff;
 }
+.link-entrar {
+    width: 200px;
 
+}
 .link-entrar:hover {
     border-bottom: 2px solid #fff;
 }
