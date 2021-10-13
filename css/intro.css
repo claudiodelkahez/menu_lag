@@ -5,14 +5,30 @@
 }
 html {
     font-size: 62.5%;
-}
-
-body {
-    background: black;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    width: 95%;
+
+    background: black;
+}
+.imagen_container {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_lagcito {
+    width: 100%;
+    max-width: 500px;
 }
 
 a {
@@ -26,7 +42,6 @@ a {
     color: #fff;
 }
 
-a:hover {
-    font-size: 2.5rem;
-
+.link-entrar:hover {
+    border-bottom: 2px solid #fff;
 }
