@@ -92,6 +92,44 @@ header {
     width: 90%;
     background: #fff;
 }
+/* <== modificacion tabla ==> */
+
+.producto1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 5px 5px;
+
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+.producto-bloque1 {
+    display: flex;
+    flex-direction: column;
+}
+.precios_tabla {
+    width: 100;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.precio_tabla1 {
+    border-left: 2px solid rgb(231, 231, 231);
+    border-right: 2px solid rgb(231, 231, 231);
+}
+.precio_tabla2 {
+    border-right: 2px solid rgb(231, 231, 231);
+}
+.precios_tabla p {
+    padding: 5px 5px;
+}
+.titulo1 h2 {padding-top: 5px;
+    font-size: 1.4rem;
+}
+
+/* <== modificacion tabla ==> */
+
 .producto-encabezado {
     display: flex;
     justify-content: space-between;
