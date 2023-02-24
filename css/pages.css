@@ -124,22 +124,34 @@ header {
 }
 
 footer {
+    margin-top: auto;
     display: flex;
     justify-content: center;
     width: 100%;
     min-width: 320px;
     max-width: 800px;
-    height: 100px;
-    background: black;
+    max-height: 300px;
+    background: rgb(24, 24, 24);
+
 }
 .creditos {
-    height: 20px;
+    padding: 50px 0px;
+    height: 100%;
     background: rgb(24, 24, 24);
     width: 100%;
 }
-.menucito {
-    text-decoration: none;
 
+.menucito:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+.menucito:visited {
+    color: orange;
+}
+.menucito {
+    color: orange;
+    transform: scale(1);
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: baseline;
